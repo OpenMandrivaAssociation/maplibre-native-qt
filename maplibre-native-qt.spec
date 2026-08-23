@@ -6,7 +6,7 @@
 
 Name:		maplibre-native-qt
 Version:	3.0.0
-Release:	1
+Release:	2
 Summary:	MapLibre Native Qt bindings and Qt Location plugin
 License:	BSD-2-Clause
 Group:		System/Libraries
@@ -20,6 +20,7 @@ Patch1:		maplibre-native-qt-skip-tests.patch
 BuildRequires:	cmake
 BuildRequires:	ninja
 BuildRequires:	pkgconfig(icu-uc)
+BuildRequires:	pkgconfig(zlib)
 BuildRequires:	cmake(Qt6Core)
 BuildRequires:	cmake(Qt6Gui)
 BuildRequires:	cmake(Qt6Network)
