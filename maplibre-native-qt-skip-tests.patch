@@ -1,0 +1,13 @@
+--- a/vendor/maplibre-native/CMakeLists.txt
++++ b/vendor/maplibre-native/CMakeLists.txt
+@@ -1141,6 +1141,7 @@
+     message(FATAL_ERROR "Unsupported target platform: " ${CMAKE_SYSTEM_NAME})
+ endif()
+ 
+-add_subdirectory(${PROJECT_SOURCE_DIR}/test)
+-add_subdirectory(${PROJECT_SOURCE_DIR}/benchmark)
+-add_subdirectory(${PROJECT_SOURCE_DIR}/render-test)
++# Tests/benchmarks omitted from the source snapshot
++# add_subdirectory(${PROJECT_SOURCE_DIR}/test)
++# add_subdirectory(${PROJECT_SOURCE_DIR}/benchmark)
++# add_subdirectory(${PROJECT_SOURCE_DIR}/render-test)
