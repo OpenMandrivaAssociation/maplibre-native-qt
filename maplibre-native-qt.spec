@@ -6,7 +6,7 @@
 
 Name:		maplibre-native-qt
 Version:	3.0.0
-Release:	2
+Release:	3
 Summary:	MapLibre Native Qt bindings and Qt Location plugin
 License:	BSD-2-Clause
 Group:		System/Libraries
